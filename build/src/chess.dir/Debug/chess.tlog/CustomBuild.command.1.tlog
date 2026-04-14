@@ -1,0 +1,10 @@
+^C:\USERS\S_A_A\DESKTOP\CHESS_GAME\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/s_a_a/Desktop/Chess_Game -BC:/Users/s_a_a/Desktop/Chess_Game/build --check-stamp-file C:/Users/s_a_a/Desktop/Chess_Game/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

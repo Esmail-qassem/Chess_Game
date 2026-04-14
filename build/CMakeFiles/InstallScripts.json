@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/s_a_a/Desktop/Chess_Game/build/cmake_install.cmake",
+		"C:/Users/s_a_a/Desktop/Chess_Game/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

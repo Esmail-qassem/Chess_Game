@@ -1,0 +1,3 @@
+C:/Users/s_a_a/Desktop/Chess_Game/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/s_a_a/Desktop/Chess_Game/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/s_a_a/Desktop/Chess_Game/build/src/CMakeFiles/chess.dir
