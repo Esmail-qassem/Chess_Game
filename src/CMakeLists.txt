@@ -7,5 +7,10 @@ add_executable(chess
 )
 
 # Tell the compiler where to find your headers
-# So you can write: #include "chess/Board.hpp"
 target_include_directories(chess PRIVATE ${PROJECT_SOURCE_DIR}/include)
+
+# Link SFML statically
+target_link_libraries(chess PRIVATE SFML::Graphics)
+
+# Required when linking SFML statically on Windows
+target_compile_definitions(chess PRIVATE SFML_STATIC)

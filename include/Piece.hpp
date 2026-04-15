@@ -4,7 +4,6 @@
 #include <vector>
 
 class Board; 
-// Define the base Piece class and subclasses (King, Queen, Rook, Bishop, Knight, Pawn) here
 class Piece
 {
     public :

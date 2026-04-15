@@ -20,8 +20,8 @@ enum class PieceType_t
 
 struct Position_t
 {
-    int col; // 0-7 for columns a-h
     int row; // 0-7 for rows 1-8
+    int col; // 0-7 for columns a-h
 };    
 
 #endif
