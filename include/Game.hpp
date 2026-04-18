@@ -2,8 +2,7 @@
 #define CHESS_GAME_HPP
 
 #include "Board.hpp"
-
-
+#include <string>
 
 class Game
 {

@@ -16,6 +16,10 @@ class Piece
         {
             return color;
         }
+        PieceType_t getType()const
+        {
+            return PieceType;
+        }
     protected : 
        color_t  color;
        PieceType_t PieceType;

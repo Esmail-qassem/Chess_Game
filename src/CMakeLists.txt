@@ -4,13 +4,12 @@ add_executable(chess
     Piece.cpp
     Board.cpp
     Game.cpp
+    ChessBoardWidget.cpp
+    ../include/ChessBoardWidget.hpp
 )
 
 # Tell the compiler where to find your headers
 target_include_directories(chess PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
-# Link SFML statically
-target_link_libraries(chess PRIVATE SFML::Graphics)
-
-# Required when linking SFML statically on Windows
-target_compile_definitions(chess PRIVATE SFML_STATIC)
+# Link Qt Widgets
+target_link_libraries(chess PRIVATE Qt6::Widgets)

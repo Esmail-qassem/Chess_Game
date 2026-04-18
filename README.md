@@ -44,3 +44,9 @@ cmake --build build
 Enter moves in standard chess notation: `e2 e4`
 
 Type `quit` to exit.
+
+
+rm -rf build
+cmake -B build
+cmake --build build
+./build/src/Debug/chess.exe
